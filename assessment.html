@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title></title>
+  </head>
+  <body>
+
+    <h1> TEXT</h1>
+    <style>
+  .notbold { font-weight:normal; }
+  .extra{ font-weight:normal;
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+
+  </style>
+    <h2 class="notbold">  <strong> Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h2>
+
+    <h3 class="extra"><em><strong>Integer</strong> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em>
+      </h3>
+
+    <h3 class="notbold">  <strong>Vestibulum</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </h3>
+
+<h1> TABLE</h1>
+<table>
+      <thead>
+        <style>
+table, th, td {
+  border: 1px ;
+  <--solid black;-->
+  border-collapse: collapse;
+}
+</style>
+        <tr>
+
+      <th colspan="6" >Scores by Quarter</th>
+
+      </tr>
+
+      <tr>
+        <th></th>
+      <th colspan ="2">First Half </th>
+        <th colspan ="2">Second Half</th>
+            <th></th>
+        </tr>
+
+        <tr>
+      <th col="1"><strong>Team Name</strong></th>
+
+    <th></th>
+    <th></th>
+     <th></th>
+         <th></th>
+      <th col= "6" ><strong>Final</strong></th>
+      </tr>
+
+        <tr>
+          <th></th>
+          <th>Q1</th>
+          <th>Q2</th>
+          <th>Q3</th>
+          <th >Q4</th>
+          <th></th>
+        </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>Denver</td>
+            <td>7</td>
+            <td>3</td>
+            <td>0</td>
+            <td>7</td>
+            <td>17</td>
+            </tr>
+              <tr>
+                <td>Chicago</td>
+                <td>0</td>
+                <td>6</td>
+                <td>3</td>
+                <td>6</td>
+                <td>15</td>
+
+              </tr>
+              <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>7</strong></td>
+                <td><strong>9</strong></td>
+                <td><strong>3</strong></td>
+                 <td><strong>13</strong></td>
+                  <td><strong>32</strong></td>
+
+              </tr>
+          </tbody>
+
+
+</table>
+<h1>LIST</h1>
+<ul>
+<li><a href="https://github.com/SkillDistillery/SD27/blob/master/web101/HTMLAssessment/images/assessment_example.png"><img
+src ="Broncos.png" alt ="bronco image" width ="100" height = "100"/></a> <br>
+<a href="https://github.com/SkillDistillery/SD27/blob/master/web101/HTMLAssessment/images/assessment_example.png">Denver Broncos</a> </li>
+<ul>
+
+
+<li>Coach:Gary Kubaik</li>
+<li>QB</li>
+
+<ol>
+  <li>Brock Osweiler</li>
+  <li>Trevor Siemian</li>
+  <li>Peyton Manning (injured)</li>
+</ol>
+</ul>
+
+<li><a href="https://github.com/SkillDistillery/SD27/blob/master/web101/HTMLAssessment/images/assessment_example.png"><img
+src ="Bears.png" alt ="bears image" width ="70" height = "70"/></a> <br>
+<a href="https://github.com/SkillDistillery/SD27/blob/master/web101/HTMLAssessment/images/assessment_example.png">Chicago Bears</a> </li>
+<ul>
+
+
+<li>Coach: Gary Kubaik</li>
+<li>QB</li>
+
+<ol>
+  <li>Jay Cutler</li>
+  <li>David Foles</li>
+</ol>
+</ul>
+</ul>
+
+<h1>FORM</h1>
+
+<form action="index.html" method="post">
+  <label for="firstname">First:</label>
+  <input type="text" name="firstName" value="Enter Name" id="firstName">
+    <label for="lastName"> Last: </label>
+    <input type="text" name="lastname" value="Enter Name" id="lastName">
+    <br>
+
+    <label for="favoriteSport"> Favorite Sport: </label>
+    <br>
+    <select id="favoriteSport" name="favoriteSport">
+      <option value = "Soccer">Soccer</option>
+        <option value = "volleyball">Volleyball</option>
+  <option value = "softball">Softball</option>
+  <option value = "golf">Golf</option>
+</select>
+
+<p> I have:
+
+<input type="checkbox" name="attended" value="attended" id="attended">
+<label for="attended">Attended</label>
+<input type="checkbox" name="attended" value="played" id="played">
+<label for="played">Played</label>
+<input type="checkbox" name="attended" value="coached" id="coached">
+<label for="coached">Coached</label>
+<input type="checkbox" name="attended" value="beton" id="beton">
+<label for="beton">Bet on</label>
+<br>
+this sport</p>
+<p>For this sport I prefer the:
+
+<input type="radio" id="amateur" name="sportpreference"  value="amateur">
+<label for="amateur">Amateur</label>
+
+<input type="radio" id="college"name="sportpreference" value="college">
+
+
+</select>
+<label for="college">College</label>
+
+<input type="radio" id="professional" name="sportpreference" value="professional">
+<label for="professional">Professional</label>
+<br>
+<input type="submit" value="Submit Query">
+</p>
+
+
+
+
+
+</form>
+
+
+  </body>
+</html>
