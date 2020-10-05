@@ -40,5 +40,9 @@ background-repeat: no-repeat;
 }
 
 [alt]{
-visibility: hidden;
+display:none;
+}
+#checkbox-grid{
+list-style: none;
+
 }
